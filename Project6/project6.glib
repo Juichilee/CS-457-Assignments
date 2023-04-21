@@ -1,0 +1,31 @@
+##OpenGL GLIB
+Perspective 70
+LookAt 0 2 5  0 2 0  0 1 0
+
+Texture2D 7 image.bmp
+
+Vertex	MoveCubeLens.vert 1300 1300 100. 1. 1. 1.
+Fragment	MoveCubeLens.frag
+Program    MoveCubeLens		\
+    TexUnit 7                           \
+	uXc	     <-10. 0. 10.>				\
+	uYc	     <-10. 0. 10.>			    \
+	uZc      <-10. 0. 10.>		        \
+	uDx      <0.01 3. 10.>				\
+	uDy      <0.01 3. 10.>				\
+	uDz      <0.01 3. 10.>				\
+	uXm	     <-10. 0. 10.>				\
+	uYm	     <-10. 0. 10.>			    \
+	uZm      <-10. 0. 10.>		        \
+	uDmx      <0.01 1. 10.>				\
+	uDmy      <0.01 1. 10.>				\
+	uDmz      <0.01 1. 10.>				\
+	uColorm {1. .7 0. 1.}               \
+	uEdgeMargin <0. 0.1 2.>           \
+	lock <false>
+
+##Box 2. 2. 2.
+Obj catH.obj
+
+
+        

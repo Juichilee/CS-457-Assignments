@@ -1,0 +1,13 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+
+Vertex   project1.vert
+Fragment project1.frag
+Program  Project1 uTol <0. 0. 1.> uBd <.001 .1 .5> uAd <.001 .1 .5> uSpaceA <.001 1.5 5.> uSpaceB <.001 1.2 5.> color1 {1. 1. 1. 1.} color2 {1. .5 0. 1.}
+
+Color 1. .9 0
+Sphere 1 50 50
+#Teapot 1 50 50
